@@ -1,0 +1,23 @@
+---
+title: Research
+auto-header: none
+icon: fa-flask
+order: 2
+---
+<h3><span style="color: #EBD9A4">Research</span></h3>
+
+<div class="row">
+  <div class="4u 12u$(mobile)">
+    <div class="item">
+      <img src="{{ 'assets/images/research_1.png' | relative_url }}" alt="Arthur's face" class="image fit"/>
+    </div>
+  </div>
+  <div class="8u 12u$(mobile)">
+    <div class="item">
+      <span style="color: #EBD9A4">
+	My research centers on learning more about planets outside our Solar System 
+      </span>
+    </div>
+  </div>
+</div>
+

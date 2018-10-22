@@ -1,0 +1,30 @@
+---
+layout: page
+title: About
+auto-header: none
+permalink: /about/
+icon: fa-user-circle
+order: 2
+---
+
+<h3>Hello!</h3>
+
+<div class="row">
+  <div class="4u 12u$(mobile)">
+    <img src="{{ 'assets/images/adams_photo.jpg' | relative_url }}" alt="Arthur's face" class="image fit"/>
+  </div>
+   <div class="8u 12u$(mobile)">
+   I'm a PhD student in the astronomy department at Yale University, working with Professor Greg Laughlin. I'm primarily interested in characterizing exoplanets, astrobiology, and SETI (both passive and active). My current projects explore the theoretical modeling of exoplanet atmospheres, using anything from simple radiative models to sophisticated global climate models.
+   </div>
+</div>
+<p>Before my time at Yale I studied physics and music at Brown University, and then went on to San Francisco State University, where I worked with Prof. Stephen Kane for my master's thesis. (For more details please see my <a href="https://drive.google.com/file/d/1MsiTCONLtHwNfc9oXB15lZz_XouaRUwB/view" target="_blank">CV</a>.)</p>
+<hr>
+
+<div class="row">
+   <div class="8u 12u$(mobile)">
+   Beyond astronomy I really enjoy playing, composing, and improvising for the piano. I also enjoy swimming, and solving twisty puzzles, the most common of which is the Rubik's Cube, and I'm an active <a href="https://www.worldcubeassociation.org/persons/2006ADAM01" target="_blank">member</a> of the World Cube Association.
+   </div>
+  <div class="4u 12u$(mobile)">
+    <img src="{{ 'assets/images/piano.jpg' | relative_url }}" alt="Arthur's piano" class="image fit"/>
+  </div>
+</div>
