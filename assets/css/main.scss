@@ -98,6 +98,13 @@ button,
   .image img {
       display: block;
       width: 100%; }
+  .image.relative {
+      position: relative;
+      display: block;
+      margin: 0 0 0 0;
+      padding: 0 0;
+      border: 0;
+      width: 100%;}
   .image.avatar48 {
       width: 128px;
       height: 128px;
@@ -216,3 +223,82 @@ button,
   .border:hover {
       box-shadow: 0 0 6px rgba(75, 222, 173, 1);
   }
+
+.area {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#area_thermal {
+    background-color: #FF8CCF;
+    left: 1.318359375%;
+    top: 26.36363636363636%;
+    height: 47.27272727272727%;
+    width: 12.6953125%;
+}
+
+#area_thermal:hover {
+    opacity: 0.66;
+}
+
+#area_obliquity {
+    background-color: #8C8CFF;
+    left: 16.89453125%;
+    top: 26.36363636363636%;
+    height: 47.27272727272727%;
+    width: 12.6953125%;
+}
+
+#area_obliquity:hover {
+    opacity: 0.66;
+}
+
+#area_mapping {
+    background-color: #FF8C8E;
+    left: 32.666015625%;
+    top: 26.36363636363636%;
+    height: 47.27272727272727%;
+    width: 12.6953125%;
+}
+
+#area_mapping:hover {
+    opacity: 0.66;
+}
+
+#area_GCM {
+    background-color: #8CFFCF;
+    left: 52.3681640625%;
+    top: 36.363636363636365%;
+    height: 27.27272727272727%;
+    width: 7.32421875%;
+}
+
+#area_GCM:hover {
+    opacity: 0.66;
+}
+
+#area_antipodes {
+    background-color: #8CCDFF;
+    left: 67.138671875%;
+    top: 36.363636363636365%;
+    height: 27.27272727272727%;
+    width: 7.32421875%;
+}
+
+#area_antipodes:hover {
+    opacity: 0.66;
+}
+
+#area_retrieval {
+    background-color: #FFCB8C;
+    left: 81.9091796875%;
+    top: 19.090909090909092%;
+    height: 61.81818181818182%;
+    width: 16.6015625%;
+}
+
+#area_retrieval:hover {
+    opacity: 0.66;
+}

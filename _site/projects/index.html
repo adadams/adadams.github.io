@@ -74,42 +74,148 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
 	<article class="shade-three">
 	  <div class="container">
 			<header>
-			  <h2><span style="color: #C4C3DE">Projects</span></h2></header><h6><span style="color: #C4C3DE">The projects with a green background are included in my dissertation.</span></h6>
+			  <h2><span style="color: #C4C3DE">Projects</span></h2></header><h6><span style="color: #C4C3DE">Click on the planet icons (or simply scroll down) to learn more about my projects in exoplanet atmospheric characterization, theory, and more!</span></h6>
 
 <div class="row">
-  <div class="2u 12u$(mobile)">
-    <a href="#antipodes" class="image fit"><img src="/assets/images/antipodes_icon.png" alt="Antipodes Project" class="border" style="background: #C4C3DE"/></a>
-  </div>
-  <div class="2u 12u$(mobile)">
-    <a href="#tilt" class="image fit"><img src="/assets/images/research_3.png" alt="Obliquity Project" class="border"/></a>
-  </div>
-  <div class="2u 12u$(mobile)">
-    <a href="#GCM" class="image fit"><img src="/assets/images/GCM_icon.png" alt="GCM Project" class="border"/></a>
-  </div>
-  <div class="2u 12u$(mobile)">
-    <a href="#thermal" class="image fit"><img src="/assets/images/thermal_icon.png" alt="Thermal Model Project" class="border"/></a>
-  </div>
-  <div class="2u 12u$(mobile)">
-    <a href="#stellar" class="image fit"><img src="/assets/images/stellar_icon.png" alt="Stellar Angular Diameter Project" class='border' style="background: #C4C3DE"/></a>
-  </div>
-  <div class="2u 12u$(mobile)">
-    <a href="#HZ" class="image fit"><img src="/assets/images/HZ_icon.png" alt="HZ Statistics Project" class="border" style="background: #C4C3DE"/></a>
+  <div class="image relative">
+    <a id="area_thermal" class="area" href="#thermal" style="position: absolute; z-index: 4;"></a>
+    <a id="area_obliquity" class="area" href="#tilt" style="position: absolute; z-index: 4;"></a>
+    <a id="area_mapping" class="area" href="#mapping" style="position: absolute; z-index: 4;"></a>
+    <a id="area_GCM" class="area" href="#GCM" style="position: absolute; z-index: 4;"></a>
+    <a id="area_antipodes" class="area" href="#antipodes" style="position: absolute; z-index: 4;"></a>
+    <a id="area_retrieval" class="area" href="#retrieval" style="position: absolute; z-index: 4;"></a>
+    <img src="/assets/images/link_map.png" alt="Project image map" style="position: relative; z-index: 1;"/>
   </div>
 </div>
 
-<h3 id="tilt"><span style="color: #EBD9A4">Antipodal Anticorrelations: Why Can't You Dig through the Earth and Come Up on Land?</span></h3>
-<div class="row">
-  <div class="3u 12u$(mobile)">
-    <img src="/assets/images/antipodes_icon.png" alt="Paleoearth" class="image fit"/>
+<div class="row" style="margin-bottom: 2cm">
+  <div class="8u 12u$(mobile)">
+    <span style="color: #8EBEBC; font-size: 2.5vh">
+      Here are some of my earlier projects as well: using interferometry to measure stellar angular diameters for microlensing surveys, and statistics of planets in the Habitable Zone from the Kepler mission!
+    </span>
   </div>
-  <div class="9u 12u$(mobile)">
+  <div class="2u 12u$(mobile)">
+    <a href="#stellar" class="image fit"><img src="/assets/images/stellar_icon.png" alt="Stellar Angular Diameter Project" class="border" style="background-color: #C1DFDD"/></a>
+  </div>
+  <div class="2u 12u$(mobile)">
+    <a href="#HZ" class="image fit"><img src="/assets/images/HZ_icon.png" alt="HZ Statistics Project" class="border" style="background-color: #C1DFDD"/></a>
+  </div>
+</div>
+
+<hr color="#EBD9A4" style="height: 8px; border-width: 1px; background-color:#C4C3DE">
+
+<h3 id="retrieval"><span style="color: #EBD9A4">How Did HD 106906 b Form? An Analysis of its Atmospheric Chemistry using a Retrieval Model</span></h3>
+<div class="row">
+  <div class="5u 12u$(mobile)">
     <span style="color: #EBD9A4">
-      Only about 2% of the Earth's land area is antipodal, or on the opposite side of the globe to, other land. We would like to know whether there is a physical underpinning to this phenomenon! Stay tuned for more information.
+      Formation pathways are still ambiguous for widely-separated companions whose masses lie simultaneously at the high end of the planetary mass distribution and the low end of the companion brown dwarf mass distribution.
+    </span>
+  </div>
+  <div class="7u 12u$(mobile)">
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/523736748" width="100%" height="345px" allowfullscreen style="border:8px solid #C4C3DE"></iframe>
+    <center><span style="font-size: 0.5em; font-style: italic; color: #BBB; line-height: 0">My talk at the "Exoplanet Atmosphere Characterization" meeting in March 2021.</span><center>
+  </div>
+</div>
+<div class="row">
+  <div class="4u 12u$(mobile)">
+    <img src="/assets/images/HD_106906_b_image.jpg" alt="Direct imaging of the HD 106906 system" class="image fit_shadow" style="border:8px solid #C4C3DE"/>
+    <center><span style="font-size: 0.5em; font-style: italic; color: #BBB; line-height: 0">A composite image of the HD 106906 system, from Bailey et. al. (2013).</span><center>
+  </div>
+  <div class="8u 12u$(mobile)">
+    <span style="color: #EBD9A4">
+      We employ a state-of-the-art atmospheric retrieval code named <a href="https://github.com/alexrhowe/APOLLO" style="color: #C4C3DE">APOLLO</a>, which was originally created by Dr. Alex Howe and which I have been helping improve and adapt for a greater diversity of planet and companion spectral types. I use <a href="https://github.com/alexrhowe/APOLLO" style="color: #C4C3DE">APOLLO</a> to model the cloudy photospheres expected for HD 106906 b’s 1700&ndash;1800 K effective temperature.
+    </span>
+  </div>
+</div>
+<div class="row" style="margin-bottom: 2cm">
+  <div class="12u 12u$(mobile)">
+    <span style="color: #EBD9A4">
+      We couple our forward models with an MCMC routine to fit a high-resolution, ground-based emission spectrum (see Daemgen et al. 2017), and ultimately measure its carbon-to-oxygen (C/O) ratio. This ratio is key to understanding how and when HD 106906 b formed in its system. We can therefore help to disambiguate the formation pathways of companions such as HD 106906 b as either brown dwarfs or planets.
     </span>
   </div>
 </div>
 
-<hr color="#EBD9A4">
+<hr color="#EBD9A4" style="height: 8px; border-width: 1px; background-color:#C4C3DE">
+
+<h3 id="mapping"><span style="color: #EBD9A4">Mapping Exoplanets in Eclipse under Various Rotation Rates and Obliquities</span></h3>
+<div class="row">
+  <div class="12u 12u$(mobile)">
+    <video class="image fit" preload="auto" controls loop autoplay>
+      <source src="/assets/images/eclipse_animation_rotation-rate_mode13_rotation9.mp4" type="video/mp4" autostart="true">
+    </video>
+    <center><span style="font-size: 0.5em; font-style: italic; color: #BBB; line-height: 0">A planet with a "basis" map that produces a given frequency of brightness variations during secondary eclipse.</span><center>
+  </div>
+</div>
+<div class="row">
+  <div class="12u 12u$(mobile)">
+    <span style="color: #EBD9A4">
+      Mapping here refers to recovering the map, or spatial distribution, of the brightness of a planet across its visible surface. This is often done for planets which transit across their host stars, and are eclipsed as they subsequently pass behind their stars. The major challenge is that currently we cannot directly resolve these planets, which means we may only measure a 1-dimensional time series of the combined brightnesses of the planet and star.
+    </span>
+  </div>
+</div>
+<div class="row">
+  <div class="5u 12u$(mobile)">
+    <span style="color: #EBD9A4">
+      We often simplify by assuming the planet spin is tidally locked to its host. This is expected to be true for many giant planets orbiting very close to their stars.
+    </span>
+  </div>
+  <div class="7u 12u$(mobile)">
+    <video class="image fit" preload="auto" controls loop autoplay>
+      <source src="/assets/images/eclipse_animation_obl-sky60_mode13_rotation9.mp4" type="video/mp4" autostart="true">
+    </video>
+    <video class="image fit" preload="auto" controls loop autoplay>
+      <source src="/assets/images/eclipse_animation_obl-LOS60_mode13_rotation9.mp4" type="video/mp4" autostart="true">
+    </video>
+  </div>
+</div>
+<div class="row" style="margin-bottom: 2cm">
+  <div class="12u 12u$(mobile)">
+    <span style="color: #EBD9A4">
+      I am collaborating with Professor Emily Rauscher at the University of Michigan to understand how our interpretation of the eclipse light curves changes as the rotation varies. This develops on the idea of constructing a <q>basis</q> of eclipse curves from a combination of map structures, and studying how ambiguity arises when the orientation and speed of the planet's rotation are unknown. Shown above are some animations of the contribution of a given "mode" of our eclipse basis, showing the variations on a uniformly bright map for a planet whose spin axis is tilting in the plane of the page (<span style="color: orange">orange</span>) and toward the viewer (<span style="color: red">red</span>). A publication on this work is coming very soon!
+    </span>
+  </div>
+</div>
+
+<hr color="#EBD9A4" style="height: 8px; border-width: 1px; background-color:#C4C3DE">
+
+<h3 id="antipodes"><span style="color: #EBD9A4">Antipodal Anticorrelations: Why Can't You Dig through the Earth and Come Up on Land?</span></h3>
+<div class="row">
+  <div class="5u 12u$(mobile)">
+    <video class="image fit_shadow" preload="auto" controls style="border:8px solid #C4C3DE">
+      <source src="/assets/images/open_session_C_Adams.mp4" type="video/mp4" autostart="false">
+    </video>
+    <center><span style="font-size: 0.5em; font-style: italic; color: #BBB; line-height: 0">This 5-minute video gives a quick introduction to our ideas!</span><center>
+  </div>
+  <div class="7u 12u$(mobile)">
+    <span style="color: #EBD9A4">
+      Earth's surface topography counts very few points on land "antipodal" (opposite on the globe) to other points on land. Moreover, this “antipodal anticorrelation” has been a feature of the globe at least since the break-up of Pangaea, Earth's most recent supercontinent.
+    </span>
+  </div>
+</div>
+<div class="row">
+  <div class="7u 12u$(mobile)">
+    <span style="color: #EBD9A4">
+      We quantify this by calculating topographical power spectra, and present evidence that anticorrelation is preferred and maintained by the motions of plate tectonics. That is, mantle convection, as supported through our parallel analysis of plate velocities, appears to inhibit erasure of this anticorrelation on the time scales of supercontinent break-up and re-formation.
+    </span>
+  </div>
+  <div class="5u 12u$(mobile)">
+    <video class="image fit_shadow" preload="auto" controls loop style="border:8px solid #C4C3DE">
+      <source src="/assets/images/paleoearth_from_pangaea.mp4" type="video/mp4" autostart="true">
+    </video>
+  </div>
+</div>
+<div class="row" style="margin-bottom: 2cm">
+  <div class="12u 12u$(mobile)">
+    <span style="color: #EBD9A4">
+      This hypothesis gains support from published work that links the plate structure and size distribution to the dynamics of mantle convection and its influence on the lithosphere, and shows preferences for a specific parity in surface harmonic structure. We corroborate this with our own fully-3D models of mantle convection.
+    </span>
+    <span style="color: #EBD9A4">
+      Combining these spectral analyses with a simple model of erosion and volcanism, we are also able to estimate &mdash; if Venus also had active plate tectonics at some point in its history &mdash; how long it has been in its current stagnant lid state. Our analysis estimates this transition occurred roughly 600 million years ago. In the context of future exoplanetary characterization, if active plate tectonics are a potential requirement of planetary habitability, antipodal anticorrelation may constitute an important observable clue.
+    </span>
+  </div>
+</div>
+
+<hr color="#EBD9A4" style="height: 8px; border-width: 1px; background-color:#C4C3DE">
 
 <h3 id="tilt"><span style="color: #EBD9A4">Effects of Obliquity on Thermal Phase Curves</span></h3><a href="https://ui.adsabs.harvard.edu/abs/2019arXiv190607615A" class="button scrolly" target="_blank">Paper</a>
 <div class="row">
@@ -131,20 +237,20 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
   <div class="5u 12u$(mobile)">
     <img src="/assets/images/obliquity_curves.png" alt="Tilted globe" class="image fit"/>
     <br>
-    <video class="image fit_shadow" preload="auto" controls>
+    <video class="image fit_shadow" preload="auto" controls loop style="border:8px solid #C4C3DE">
       <source src="/assets/images/obliquity_animation.m4v" type="video/mp4" autostart="true">
     </video>
   </div>
 </div>
-<div class="row">
+<div class="row" style="margin-bottom: 2cm">
   <div class="12u 12u$(mobile)">
     <span style="color: #EBD9A4">
-      With the help of my thesis advisor Greg Laughlin, and fellow astronomer Sarah Millholland, we have also developed an underlying dynamical hypothesis which may allow planets to maintain high tilts, via spin-orbit resonances. The close-in giant planet CoRoT-2 b currently offers the tightest constraints under our obliquity hypothesis, and as a testable prediction implies the existence of a non-transiting outer companion, which can be searched for in radial velocity variations.
+      With the help of my thesis advisor Prof. Greg Laughlin, and fellow astronomer Dr. Sarah Millholland, we have also developed an underlying dynamical hypothesis which may allow planets to maintain high tilts, via spin-orbit resonances. The close-in giant planet CoRoT-2 b currently offers the tightest constraints under our obliquity hypothesis, and as a testable prediction implies the existence of a non-transiting outer companion, which can be searched for in radial velocity variations.
     </span>
   </div>
 </div>
 
-<hr>
+<hr color="#EBD9A4" style="height: 8px; border-width: 1px; background-color:#C4C3DE">
 
 <h3 id="GCM"><span style="color: #EBD9A4">Aquaplanets on Eccentric Orbits &mdash; Effects of Rotation Rate on Observables</span></h3><a href="https://ui.adsabs.harvard.edu/abs/2019AJ....157..189A" class="button scrolly" target="_blank">Paper</a>
 <div class="row">
@@ -157,7 +263,7 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
     </span>
   </div>
 </div>
-<div class="row">
+<div class="row" style="margin-bottom: 2cm">
   <div class="8u 12u$(mobile)">
     <span style="color: #EBD9A4">
       Observables will ultimately come from upper layers of the atmosphere, rather than surface conditions, so can surface features propagate upward? We construct "water colors", or differences in fluxes between bands that differ in their sensitivity to water-based absorption features. Depending on the viewing geometry and observable contrast, differences in the scale of rotation rate can propagate to differences in phase variations, as well as eclipse and transit depths.
@@ -168,7 +274,7 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
   </div>
 </div>
 
-<hr>
+<hr color="#EBD9A4" style="height: 8px; border-width: 1px; background-color:#C4C3DE">
 
 <h3 id="thermal"><span style="color: #EBD9A4">Reassessing Exoplanet Light Curves with a Thermal Model</span></h3><a href="https://ui.adsabs.harvard.edu/#abs/2018AJ....156...28A" class="button scrolly" target="_blank">Paper</a>
 <div class="row">
@@ -191,25 +297,29 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
     <img src="/assets/images/thermal_curves.png" alt="Thermal phase curves for HD 189733 b" class="image fit"/>
   </div>
 </div>
-<p style="color: #EBD9A4">
-We used a simple thermal model in an attempt to fit the broadest features of each phase curve. In most cases, given the precision of the available data, the thermal approach reproduces the major variations at comparable efficacy with more sophisticated physical models. Regardless of the model used, it continues to be important to accurately characterize the instrumental response, especially so with the eventual launch of the James Webb Space Telescope.
-</p>
+<div class="row" style="margin-bottom: 2cm">
+  <div class="12u 12u$(mobile)">
+    <span style="color: #EBD9A4">
+We used a simple thermal model in an attempt to fit the broadest features of each phase curve. In most cases, given the precision of the available data, the thermal approach reproduces the major variations at comparable efficacy with more sophisticated physical models. Regardless of the model used, it continues to be important to accurately characterize the instrumental response, especially so with the launch of the James Webb Space Telescope.
+    </span>
+  </div>
+</div>
 
-<hr>
+<hr color="#EBD9A4" style="height: 8px; border-width: 1px; background-color:#C4C3DE">
 
 <h3 id="stellar"><span style="color: #EBD9A4">Predicting Stellar Angular Diameters from Photometry</span></h3><a href="https://ui.adsabs.harvard.edu/#abs/2018MNRAS.473.3608A" class="button scrolly" target="_blank">Paper</a>
-<div class="row">
+<div class="row" style="margin-bottom: 2cm">
   <div class="5u 12u$(mobile)">
     <img src="/assets/images/stellar_plot.png" alt="Stellar angular diameters from V-I color" class="image fit_shadow"/>
   </div>
   <div class="7u 12u$(mobile)">
     <span style="color: #EBD9A4">
-      For my first research project at Yale I worked with Drs. <a href="https://www.lsu.edu/physics/people/faculty/boyajian.php">Tabetha Boyajian</a> and <a href="https://lowell.edu/staff-member/kaspar-von-braun/">Kaspar von Braun</a> to improve the precision of empiricial relations between apparent stellar angular sizes and photometric colors. The measurement of angular diameters was done using the <a href="http://www.chara.gsu.edu/">CHARA Interferometric Array</a>.
+      For my first research project at Yale I worked with Professors <a href="https://www.lsu.edu/physics/people/faculty/boyajian.php">Tabetha Boyajian</a> and <a href="https://lowell.edu/staff-member/kaspar-von-braun/">Kaspar von Braun</a> to improve the precision of empiricial relations between apparent stellar angular sizes and photometric colors. The measurement of angular diameters was done using the <a href="http://www.chara.gsu.edu/">CHARA Interferometric Array</a>.
     </span>
   </div>
 </div>
 
-<hr>
+<hr color="#EBD9A4" style="height: 8px; border-width: 1px; background-color:#C4C3DE">
 
 <h3 id="HZ"><span style="color: #EBD9A4">Using Kepler Candidates to Examine the Properties of Habitable Zone Exoplanets</span></h3><a href="https://ui.adsabs.harvard.edu/#abs/2016AJ....152....4A/" class="button scrolly" target="_blank">Paper</a>
 <div class="row">
@@ -218,7 +328,7 @@ We used a simple thermal model in an attempt to fit the broadest features of eac
   </div>
   <div class="7u 12u$(mobile)">
     <span style="color: #EBD9A4">
-      At San Francisco State University I completed my master's thesis in physics with Dr. <a href="http://astro.ucr.edu/members/faculty/kane/">Stephen Kane</a> &mdash; this project was the publication that resulted from this work. We examined whether transiting planets known to be in the habitable zones of their host stars differed as a population in their system properties from the population of transiting planets as a whole.
+      At San Francisco State University I completed my master's thesis in physics with Professor <a href="http://astro.ucr.edu/members/faculty/kane/">Stephen Kane</a> &mdash; this project was the publication that resulted from this work. We examined whether transiting planets known to be in the habitable zones of their host stars differed as a population in their system properties from the population of transiting planets as a whole.
     </span>
   </div>
 </div>
